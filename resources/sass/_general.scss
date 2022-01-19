@@ -1,0 +1,24 @@
+body{
+  scroll-behavior:smooth;
+}
+#menu{
+  transition: transform .5s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left ;
+  &.active{
+    transform: scaleX(1);
+  }
+}
+
+
+.title{
+  & h1{
+    color: $bg-header;
+  }
+}
+.text-theme{
+  color: $bg-header;
+}
+.bg-theme{
+  background-color: $bg-header;
+}

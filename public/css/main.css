@@ -1,0 +1,47 @@
+body {
+  scroll-behavior: smooth;
+}
+
+#menu {
+  transition: transform 0.5s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+#menu.active {
+  transform: scaleX(1);
+}
+
+.title h1 {
+  color: #3B5678;
+}
+
+.text-theme {
+  color: #3B5678;
+}
+
+.bg-theme {
+  background-color: #3B5678;
+}
+
+.nav__header {
+  background-color: #3B5678;
+}
+
+.banner {
+  background-image: linear-gradient(to bottom, #3b5878, #3b5878ab, #5a98c788), url("/img/bg-1.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+}
+.banner .form_btn {
+  background-color: #3B5678;
+}
+
+.card__btn {
+  background-color: #3B5678;
+}
+.card__price {
+  color: #3B5678;
+}
